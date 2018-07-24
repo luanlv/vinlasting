@@ -98,6 +98,11 @@ export default class MyDocument extends Document {
                 height: 20px !important;
               }
             }
+            @media (min-width: 768px){
+              .show {
+                margin-top: 80px !important;
+              }
+            }
           `}</style>
         </body>
       </html>

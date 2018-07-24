@@ -5,7 +5,7 @@ class ReactWr extends React.Component {
     render () {
         return (
             <Layout>
-                <div className="show" style={{marginTop: 80}}>
+                <div className="show">
                 <div className="box_slider" id="box_slider">
                 <ul className="bxslider">
                     <li><a href="#"><img src="/static/slider/1.jpg" /></a></li>

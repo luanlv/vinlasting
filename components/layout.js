@@ -83,28 +83,25 @@ class Layout extends React.Component {
                                                 <a>Trang chủ</a>
                                             </Link>
                                         </li>
-                                    <li id="menu-item-2332" className="Gioithieu menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2332"><a href="#">Giới thiệu</a>
-                                        <ul className="sub-menu">
-                                        <li id="menu-item-85" className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-85">
+                                    
+                                    <li id="menu-item-2332" className="Gioithieu menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2332">
                                             <Link href="/gioi-thieu-chung">
                                                 <a>Giới thiệu chung</a>
                                             </Link>
-                                        </li>
-                                        <li id="menu-item-86" className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-86">
-                                            <Link href="/su-menh-tam-nhin">
-                                                <a>Sứ mệnh tầm nhìn</a>
-                                            </Link>
-                                        </li>
-                                        </ul>
                                     </li>
-                                    <li id="menu-item-741" className="Gioithieu menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-741"><a href="#">Lĩnh vực hoạt động</a>
-                                        <ul className="sub-menu">
-                                        <li id="menu-item-742" className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-742">
-                                            <Link href="/dich-vu">
-                                                <a>Design - In ấn</a>
+
+
+                                    <li className="Gioithieu menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2332">
+                                    <Link href="/su-menh-tam-nhin">
+                                                <a>Sứ mệnh - tầm nhìn</a>
                                             </Link>
-                                        </li>
-                                        </ul>
+                                    </li>
+
+                                    <li id="menu-item-741" className="Gioithieu menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-741">
+                                        <Link href="/dich-vu">
+                                            <a>Lĩnh vực hoạt động</a>
+                                        </Link>
+                                        
                                     </li>
                                     <li id="menu-item-8006" className="menu-item menu-item-type-taxonomy menu-item-object-news-category menu-item-8006"><a href="#">Tin tức</a>
                                     </li>
@@ -128,10 +125,16 @@ class Layout extends React.Component {
                     <div className="col-xs-12">
                     <div className="menuBottom">
                         <ul id="menu-bottom-menu" className><li id="menu-item-104" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-104">
-                            <a href="#">Trang chủ</a></li>
-                        <li id="menu-item-2331" className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2331"><a href="#">Giới thiệu</a></li>
+                            <Link href="/">
+                                <a>Trang chủ</a>
+                            </Link>    
+                        </li>
+                        <li id="menu-item-2331" className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2331">
+                            <Link href="/gioi-thieu-chung">
+                                <a href="#">Giới thiệu</a>
+                            </Link>
+                        </li>
                         <li id="menu-item-108" className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-108"><a href="#">Tin tức</a></li>
-                        <li id="menu-item-109" className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-109"><a href="#">Tuyển dụng</a></li>
                         </ul>	         				<div className="hidden-sm link">
                         <select onchange="if (this.value != '') window.open(this.value, '_blank');">
                             <option selected="selected" value>Liên kết Website</option>
