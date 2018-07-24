@@ -14,6 +14,9 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
           <style>{`
             img.wp-smiley,
             img.emoji {
