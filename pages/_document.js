@@ -70,7 +70,9 @@ export default class MyDocument extends Document {
           .logo {
             left: 0 !important;
           }
-
+          .slide {
+            margin-right: 10px;
+          }
           `}</style>
           <link rel="stylesheet" href="/static/style.css"/>
           <script dangerouslySetInnerHTML={{
