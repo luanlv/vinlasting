@@ -4,6 +4,22 @@ class ReactWr extends React.Component {
     render () {
         return (
             <Layout>
+                <div className="show">
+                <div className="box_slider" id="box_slider">
+                <ul className="bxslider">
+                    <li><a href="#"><img src="/static/slider/1.jpg" /></a></li>
+                    <li><a href="#"><img src="/static/slider/2.jpg" /></a></li>
+                    <li><a href="#"><img src="/static/slider/3.jpg" /></a></li>
+                    <li><a href="#"><img src="/static/slider/4.jpg" /></a></li>
+                    <li><a href="#"><img src="/static/slider/5.jpg" /></a></li>
+                    <li><a href="#"><img src="/static/slider/6.jpg" /></a></li>
+                    {/* <li><a href="#"><img src="/static/slider/7.jpg" /></a></li> */}
+                    {/* <li><a href="#"><img src="/static/slider/8.jpg" /></a></li> */}
+                </ul>
+                </div>
+                <style type="text/css" dangerouslySetInnerHTML={{__html: "\n    .show{ position: relative; }\n    .video-home{ position: absolute;z-index: 111;right: 150px;top:150px;}\n" }} />
+                </div>
+                
                 <div style={{maxWidth: 800, margin: '10 auto 0 auto', padding: 5}}>
                 <h2 style={{textAlign: 'center', lineHeight: '1.295', marginTop: '0pt', marginBottom: '14pt', backgroundColor: '#ffffff'}}><span style={{fontSize: '12pt', fontFamily: '"Times New Roman"', color: '#ff6600', backgroundColor: 'transparent', fontWeight: 400, fontVariant: 'small-caps', textDecoration: 'none', verticalAlign: 'baseline', whiteSpace: 'pre-wrap'}}>VINLASTING</span><span style={{fontSize: '12pt', fontFamily: '"Times New Roman"', color: '#006666', backgroundColor: 'transparent', fontWeight: 400, fontVariant: 'small-caps', textDecoration: 'none', verticalAlign: 'baseline', whiteSpace: 'pre-wrap'}}> CUNG CẤP CÁC&nbsp;DỊCH VỤ</span></h2>
                 <p style={{lineHeight: '1.2', marginTop: '0pt', marginBottom: '5pt', backgroundColor: '#ffffff'}}><strong><span style={{fontSize: '18pt', fontFamily: '"Times New Roman"', color: '#006666', backgroundColor: 'transparent', fontVariant: 'normal', textDecoration: 'none', verticalAlign: 'baseline', whiteSpace: 'pre-wrap'}}>DESIGN:</span></strong></p>
