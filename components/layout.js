@@ -85,8 +85,16 @@ class Layout extends React.Component {
                                         </li>
                                     <li id="menu-item-2332" className="Gioithieu menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2332"><a href="#">Giới thiệu</a>
                                         <ul className="sub-menu">
-                                        <li id="menu-item-85" className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-85"><a href="#">Giới thiệu chung</a></li>
-                                        <li id="menu-item-86" className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-86"><a href="#">Sứ mệnh tầm nhìn</a></li>
+                                        <li id="menu-item-85" className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-85">
+                                            <Link href="/gioi-thieu-chung">
+                                                <a>Giới thiệu chung</a>
+                                            </Link>
+                                        </li>
+                                        <li id="menu-item-86" className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-86">
+                                            <Link href="/su-menh-tam-nhin">
+                                                <a>Sứ mệnh tầm nhìn</a>
+                                            </Link>
+                                        </li>
                                         </ul>
                                     </li>
                                     <li id="menu-item-741" className="Gioithieu menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-741"><a href="#">Lĩnh vực hoạt động</a>

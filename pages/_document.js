@@ -32,19 +32,15 @@ export default class MyDocument extends Document {
             }
           `}</style>
           <link rel="stylesheet" href="http://www.hoaphat.com.vn/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.4"/>
-          <link rel="stylesheet" href="http://www.hoaphat.com.vn/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=2.5.2"/>
-          <link rel="stylesheet" href="http://www.hoaphat.com.vn/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=2.5.2" media='only screen and (max-width: 768px)'/>
-          <link rel="stylesheet" href="http://www.hoaphat.com.vn/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=2.5.2"/>
           <link rel="stylesheet" href="http://www.hoaphat.com.vn/wp-content/themes/tapdoan/css/bootstrap.min.css?ver=1.0"/>
           <link rel="stylesheet" href="http://www.hoaphat.com.vn/wp-content/themes/tapdoan/css/bxslider.css?ver=1.0"/>
           <link rel="stylesheet" href="http://www.hoaphat.com.vn/wp-content/themes/tapdoan/css/font-awesome.min.css?ver=1.0" />
           <link rel="stylesheet" href="http://www.hoaphat.com.vn/wp-content/themes/tapdoan/css/gallery.css?ver=1.0" />
           
         
-          <script type='text/javascript' src='http://www.hoaphat.com.vn/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
-          <script type='text/javascript' src='http://www.hoaphat.com.vn/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+          {/* <script type='text/javascript' src='http://www.hoaphat.com.vn/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script> */}
           <script type='text/javascript' src='http://www.hoaphat.com.vn/wp-content/themes/tapdoan/js/jquery.min.js?ver=1.0'></script>
-
+          <script type='text/javascript' src='http://www.hoaphat.com.vn/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
           <script src="http://www.hoaphat.com.vn/wp-content/themes/tapdoan/js/bootstrap.min.js?ver=1.0" />
           <script src="http://www.hoaphat.com.vn/wp-content/themes/tapdoan/js/jquery.bxslider.min.js?ver=1.0" />
           <script src="http://www.hoaphat.com.vn/wp-content/themes/tapdoan/js/highslide-with-gallery.js?ver=1.0" />
